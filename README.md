@@ -87,7 +87,7 @@ TELEGRAM_CHAT_ID=你的_Telegram_Chat_ID（可選）
 
 ### 5️⃣ 準備攝影機
 - 使用IP webcam的app將手機平板等裝置變成可以被調用的攝影機
-- 
+
 ### 6️⃣ 執行程式
 ```bash
 python silversight_v2_addyolo_telegram_v9.py
@@ -102,7 +102,6 @@ python silversight_v2_addyolo_telegram_v9.py
 |------|------|
 | `/register <user_id> <密碼>` | 註冊新帳號 |
 | `/login <user_id> <密碼>` | 使用帳號登入 |
-| `/login <配對碼>` | 使用配對碼登入（多裝置） |
 | `/logout` | 登出此裝置 |
 
 ### 📹 **監控功能**
@@ -341,6 +340,3 @@ TRACK_ITEMS = {
 - **OpenCV** - 影像處理
 - **Telegram Bot API** - 通訊平台
 - **gTTS** - 語音合成
-
-
-
