@@ -86,10 +86,8 @@ TELEGRAM_CHAT_ID=你的_Telegram_Chat_ID（可選）
 4. 複製提供的 Token
 
 ### 5️⃣ 準備攝影機
-- **本地網路攝影機**: `rtsp://192.168.1.100:554/stream`
-- **USB 攝影機**: `0`、`1` 等設備號
-- **IP 攝影機**: `http://user:pass@192.168.1.100:8080/stream`
-
+- 使用IP webcam的app將手機平板等裝置變成可以被調用的攝影機
+- 
 ### 6️⃣ 執行程式
 ```bash
 python silversight_v2_addyolo_telegram_v9.py
@@ -321,7 +319,7 @@ TRACK_ITEMS = {
 ## 👨‍💻 開發者資訊
 
 - **作者**: 吳宜謙 劉家豪
-- **版本**: v5.0
+- **版本**: v1.0
 - **最後更新**: 2025-12-19
 
 ---
@@ -343,5 +341,6 @@ TRACK_ITEMS = {
 - **OpenCV** - 影像處理
 - **Telegram Bot API** - 通訊平台
 - **gTTS** - 語音合成
+
 
 
