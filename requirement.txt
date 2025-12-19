@@ -1,0 +1,8 @@
+opencv-python
+mediapipe
+numpy
+requests
+ultralytics
+gTTS
+pygame
+python-dotenv
